@@ -1,0 +1,555 @@
+Microsoft Windows [Version 10.0.19041.928]
+(c) Microsoft Corporation. Wszelkie prawa zastrzeżone.
+
+C:\Users\adama>git init
+Initialized empty Git repository in C:/Users/adama/.git/
+
+C:\Users\adama>wsl --install
+'wsl' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\adama>git status
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Dane aplikacji/': Permission denied
+warning: could not open directory 'Menu Start/': Permission denied
+warning: could not open directory 'Moje dokumenty/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Szablony/': Permission denied
+warning: could not open directory 'Ustawienia lokalne/': Permission denied
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .AndroidStudio3.5/
+        .BigNox/
+        .IdeaIC2019.3/
+        .VirtualBox/
+        .android/
+        .atom/
+        .config/
+        .dotnet/
+        .gitconfig
+        .gstreamer-0.10/
+        .ipython/
+        .m2/
+        .nbi/
+        .octave_hist
+        .swt/
+        3D Objects/
+        AppData/
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        Favorites/
+        IdeaProjects/
+        Links/
+        MicrosoftEdgeBackups/
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{a84ebcf3-0b30-11eb-bca2-a85e452c5357}.TM.blf
+        NTUSER.DAT{a84ebcf3-0b30-11eb-bca2-a85e452c5357}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{a84ebcf3-0b30-11eb-bca2-a85e452c5357}.TMContainer00000000000000000002.regtrans-ms
+        Nox_share/
+        OneDrive/
+        Pictures/
+        PycharmProjects/
+        Saved Games/
+        Searches/
+        Videos/
+        VirtualBox VMs/
+        Vortex/
+        d4ac4633ebd6440fa397b84f1bc94a3c.7z
+        inittk.ini
+        inst.ini
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        nuuid.ini
+        useruid.ini
+        vmlogs/
+        web dev/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\adama>touch .gitignore
+'touch' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\adama>gitcomitted
+'gitcomitted' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\adama>git remote add origin https://github.com/duszek91/python_backend_2021_04_17.git
+
+C:\Users\adama>git log
+fatal: your current branch 'master' does not have any commits yet
+
+C:\Users\adama>git config user.name "FIRST_NAME LAST_NAME"
+
+C:\Users\adama>git config user.name "Adam Gainski"
+
+C:\Users\adama>git config user.email "adamaczek91@gmail.com"
+
+C:\Users\adama>git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/duszek91/python_backend_2021_04_17.git'
+
+C:\Users\adama>git remote add origin
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+C:\Users\adama>git commit
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Dane aplikacji/': Permission denied
+warning: could not open directory 'Menu Start/': Permission denied
+warning: could not open directory 'Moje dokumenty/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Szablony/': Permission denied
+warning: could not open directory 'Ustawienia lokalne/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Dane aplikacji/': Permission denied
+warning: could not open directory 'Menu Start/': Permission denied
+warning: could not open directory 'Moje dokumenty/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Szablony/': Permission denied
+warning: could not open directory 'Ustawienia lokalne/': Permission denied
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .AndroidStudio3.5/
+        .BigNox/
+        .IdeaIC2019.3/
+        .VirtualBox/
+        .android/
+        .atom/
+        .config/
+        .dotnet/
+        .gitconfig
+        .gstreamer-0.10/
+        .ipython/
+        .m2/
+        .nbi/
+        .octave_hist
+        .swt/
+        3D Objects/
+        AppData/
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        Favorites/
+        IdeaProjects/
+        Links/
+        MicrosoftEdgeBackups/
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{a84ebcf3-0b30-11eb-bca2-a85e452c5357}.TM.blf
+        NTUSER.DAT{a84ebcf3-0b30-11eb-bca2-a85e452c5357}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{a84ebcf3-0b30-11eb-bca2-a85e452c5357}.TMContainer00000000000000000002.regtrans-ms
+        Nox_share/
+        OneDrive/
+        Pictures/
+        PycharmProjects/
+        Saved Games/
+        Searches/
+        Videos/
+        VirtualBox VMs/
+        Vortex/
+        d4ac4633ebd6440fa397b84f1bc94a3c.7z
+        inittk.ini
+        inst.ini
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        nuuid.ini
+        useruid.ini
+        vmlogs/
+        web dev/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\adama>git add Music
+
+C:\Users\adama>git status
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Dane aplikacji/': Permission denied
+warning: could not open directory 'Menu Start/': Permission denied
+warning: could not open directory 'Moje dokumenty/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Szablony/': Permission denied
+warning: could not open directory 'Ustawienia lokalne/': Permission denied
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Music/desktop.ini
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .AndroidStudio3.5/
+        .BigNox/
+        .IdeaIC2019.3/
+        .VirtualBox/
+        .android/
+        .atom/
+        .config/
+        .dotnet/
+        .gitconfig
+        .gstreamer-0.10/
+        .ipython/
+        .m2/
+        .nbi/
+        .octave_hist
+        .swt/
+        3D Objects/
+        AppData/
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        Favorites/
+        IdeaProjects/
+        Links/
+        MicrosoftEdgeBackups/
+        NTUSER.DAT
+        NTUSER.DAT{a84ebcf3-0b30-11eb-bca2-a85e452c5357}.TM.blf
+        NTUSER.DAT{a84ebcf3-0b30-11eb-bca2-a85e452c5357}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{a84ebcf3-0b30-11eb-bca2-a85e452c5357}.TMContainer00000000000000000002.regtrans-ms
+        Nox_share/
+        OneDrive/
+        Pictures/
+        PycharmProjects/
+        Saved Games/
+        Searches/
+        Videos/
+        VirtualBox VMs/
+        Vortex/
+        d4ac4633ebd6440fa397b84f1bc94a3c.7z
+        inittk.ini
+        inst.ini
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        nuuid.ini
+        useruid.ini
+        vmlogs/
+        web dev/
+
+
+C:\Users\adama>git status
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Dane aplikacji/': Permission denied
+warning: could not open directory 'Menu Start/': Permission denied
+warning: could not open directory 'Moje dokumenty/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Szablony/': Permission denied
+warning: could not open directory 'Ustawienia lokalne/': Permission denied
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Music/desktop.ini
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .AndroidStudio3.5/
+        .BigNox/
+        .IdeaIC2019.3/
+        .VirtualBox/
+        .android/
+        .atom/
+        .config/
+        .dotnet/
+        .gitconfig
+        .gstreamer-0.10/
+        .ipython/
+        .m2/
+        .nbi/
+        .octave_hist
+        .swt/
+        3D Objects/
+        AppData/
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        Favorites/
+        IdeaProjects/
+        Links/
+        MicrosoftEdgeBackups/
+        NTUSER.DAT
+        NTUSER.DAT{a84ebcf3-0b30-11eb-bca2-a85e452c5357}.TM.blf
+        NTUSER.DAT{a84ebcf3-0b30-11eb-bca2-a85e452c5357}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{a84ebcf3-0b30-11eb-bca2-a85e452c5357}.TMContainer00000000000000000002.regtrans-ms
+        Nox_share/
+        OneDrive/
+        Pictures/
+        PycharmProjects/
+        Saved Games/
+        Searches/
+        Videos/
+        VirtualBox VMs/
+        Vortex/
+        d4ac4633ebd6440fa397b84f1bc94a3c.7z
+        inittk.ini
+        inst.ini
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        nuuid.ini
+        useruid.ini
+        vmlogs/
+        web dev/
+
+
+C:\Users\adama>C:\Users\adama\PycharmProjects
+'C:\Users\adama\PycharmProjects' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\adama>cd pycharmprojects
+
+C:\Users\adama\PycharmProjects>cd python17.04
+
+C:\Users\adama\PycharmProjects\python17.04>git init
+Initialized empty Git repository in C:/Users/adama/PycharmProjects/python17.04/.git/
+
+C:\Users\adama\PycharmProjects\python17.04>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .idea/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\adama\PycharmProjects\python17.04>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .idea/
+        main.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\adama\PycharmProjects\python17.04>git add main.py
+
+C:\Users\adama\PycharmProjects\python17.04>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   main.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .idea/
+
+
+C:\Users\adama\PycharmProjects\python17.04>git commit -m
+error: switch `m' requires a value
+
+C:\Users\adama\PycharmProjects\python17.04>git commit -m "pierwsze repozytorium"
+[master (root-commit) fd94003] pierwsze repozytorium
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 main.py
+
+C:\Users\adama\PycharmProjects\python17.04>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .idea/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\adama\PycharmProjects\python17.04>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\adama\PycharmProjects\python17.04>git remote add origin https://github.com/duszek91/python_backend_2021_04_17.git
+
+C:\Users\adama\PycharmProjects\python17.04>git add .gitignore
+
+C:\Users\adama\PycharmProjects\python17.04>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .gitignore
+
+
+C:\Users\adama\PycharmProjects\python17.04>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .gitignore
+
+
+C:\Users\adama\PycharmProjects\python17.04>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .gitignore
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   main.py
+
+
+C:\Users\adama\PycharmProjects\python17.04>git add main.py
+
+C:\Users\adama\PycharmProjects\python17.04>git add redme.txt
+
+C:\Users\adama\PycharmProjects\python17.04>git commit -m "pierwsze repozytorium"
+[master 03e73b4] pierwsze repozytorium
+ 3 files changed, 2 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 redme.txt
+
+C:\Users\adama\PycharmProjects\python17.04>git push origin master
+info: please complete authentication in your browser...
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (7/7), 516 bytes | 516.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/duszek91/python_backend_2021_04_17.git
+ * [new branch]      master -> master
+
+C:\Users\adama\PycharmProjects\python17.04>git clone https://github.com/rkorzen/pythoh_backend_2021_04_17
+Cloning into 'pythoh_backend_2021_04_17'...
+remote: Enumerating objects: 11, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 11 (delta 2), reused 11 (delta 2), pack-reused 0
+Receiving objects: 100% (11/11), done.
+Resolving deltas: 100% (2/2), done.
+
+C:\Users\adama\PycharmProjects\python17.04>git statis
+git: 'statis' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+C:\Users\adama\PycharmProjects\python17.04>cd..
+
+C:\Users\adama\PycharmProjects>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\adama\PycharmProjects>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 1207-2350
+
+ Directory of C:\Users\adama\PycharmProjects
+
+17.04.2021  10:34    <DIR>          .
+17.04.2021  10:34    <DIR>          ..
+04.12.2020  20:17    <DIR>          codeStyles
+04.12.2020  20:19    <DIR>          codeStyles1
+06.12.2020  22:02    <DIR>          CoffeMachine
+23.12.2020  15:44    <DIR>          day 24
+17.12.2020  15:35    <DIR>          day 25
+19.12.2020  21:10    <DIR>          day 26
+21.12.2020  13:55    <DIR>          day 27
+22.12.2020  16:06    <DIR>          day 28
+25.12.2020  13:30    <DIR>          day 29
+23.12.2020  21:51    <DIR>          day 30
+25.12.2020  22:26    <DIR>          day 31
+28.12.2020  20:18    <DIR>          day 32
+27.12.2020  15:04    <DIR>          day 33
+27.12.2020  20:24    <DIR>          day 34
+28.12.2020  14:23    <DIR>          day 35
+28.12.2020  19:55    <DIR>          day 36
+29.12.2020  14:28    <DIR>          day 37
+29.12.2020  19:59    <DIR>          day 38
+31.12.2020  20:12    <DIR>          day 39
+04.01.2021  18:39    <DIR>          day 4
+30.12.2020  17:18    <DIR>          day 40
+30.12.2020  20:46    <DIR>          day 41
+05.01.2021  18:43    <DIR>          day 45
+09.01.2021  21:32    <DIR>          day 46
+17.01.2021  20:22    <DIR>          day 47
+25.01.2021  17:52    <DIR>          day 48
+26.01.2021  17:14    <DIR>          day 50
+26.01.2021  22:57    <DIR>          day 51
+27.01.2021  11:56    <DIR>          day 52
+27.01.2021  16:23    <DIR>          day 53
+17.04.2021  09:22    <DIR>          day 54
+12.02.2021  16:59    <DIR>          day 56
+03.03.2021  15:09    <DIR>          day 57
+07.12.2020  13:06    <DIR>          day-16
+08.12.2020  19:25    <DIR>          day-17-start
+29.12.2020  19:21    <DIR>          day-18-start
+13.12.2020  21:45    <DIR>          day-22-paddle-game
+14.12.2020  12:07    <DIR>          day-23
+18.12.2020  12:16    <DIR>          day25 project
+16.12.2020  19:46    <DIR>          day25v2
+29.12.2020  18:33    <DIR>          day382
+03.03.2021  13:05    <DIR>          macrodlaJacka
+04.02.2021  17:44    <DIR>          moduly_wbudowane
+31.12.2020  20:09    <DIR>          projects
+07.12.2020  10:22    <DIR>          pyCharm
+03.03.2021  17:34    <DIR>          pyqt5 day1
+17.04.2021  10:31    <DIR>          pythoh_backend_2021_04_17
+17.04.2021  10:34    <DIR>          python17.04
+16.12.2020  19:59    <DIR>          pythonProject
+02.01.2021  12:24    <DIR>          Web Dev
+02.01.2021  11:22    <DIR>          zyciorys
+               0 File(s)              0 bytes
+              53 Dir(s)  513 918 586 880 bytes free
+
+C:\Users\adama\PycharmProjects>cd pythoh_backend_2021_04_17
+
+C:\Users\adama\PycharmProjects\pythoh_backend_2021_04_17>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\adama\PycharmProjects\pythoh_backend_2021_04_17>
